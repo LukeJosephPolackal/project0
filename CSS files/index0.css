@@ -1,4 +1,17 @@
-head {
+video {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+}
+.animations {
+  padding: 5px;
+  margin: 5px;
+  background-color: #fffdd9;
+  display: flex;
+  flex-wrap: wrap;
+}
+body {
   background-color: #fffdd9;
 }
 
