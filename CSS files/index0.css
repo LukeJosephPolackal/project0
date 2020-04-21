@@ -15,19 +15,28 @@ body {
   background-color: #fffdd9;
 }
 
+#bio {
+  color: #942300;
+  text-align: right;
+  width: 50%;
+}
+
 .bio {
   display: flex;
   flex-wrap: wrap;
 }
 
 .bio > div {
-  background-color: springgreen;
+  background-color: #ffdab8;
   font-size: 20px;
-  margin-left: 45%;
+  margin: 10px;
   padding: 20px;
-  width: 50%;
+  width: 100%;
   }
-
+.header {
+  border-style: solid;
+  border-color: #942300;
+}
 .header > div {
   background-color: #fffdd9;
   margin: 0px;
