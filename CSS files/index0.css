@@ -4,6 +4,7 @@ video {
   flex-wrap: wrap;
   margin-left: 20px;
 }
+
 .animations {
   padding: 5px;
   margin: 5px;
@@ -19,14 +20,15 @@ video {
   display: flex;
   flex-wrap: wrap;
 }
+
 body {
   background-color: #fffdd9;
 }
 
-.bio2 > div  {
+.bio2 > div {
   color: #942300;
-  text-align: justify;
-  width: 100%;
+  text-align: center;
+  width: auto;
   vertical-align: middle;
   padding: 75px;
 }
@@ -34,9 +36,7 @@ body {
 .image {
   display: block;
   vertical-align: middle;
-  padding: 75px
-  width: 200px;
-  height: 200px;
+  padding: 25px;
 }
 
 .bio {
@@ -49,19 +49,24 @@ body {
   font-size: 20px;
   margin: 10px;
   padding: 20px;
-  width: 100%;
+  width: auto;
   display: flex;
-  }
+}
+
 .header {
   border-style: solid;
   border-color: #942300;
+  width: auto;
   margin: 5px;
 }
+
 .header > div {
   background-color: #fffdd9;
   margin: 0px;
   padding: 6px;
+  width: auto;
 }
+
 .container {
   padding-top: 5px;
   margin: 20px;
@@ -93,7 +98,7 @@ body {
 }
 
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .fa-instagram {
@@ -104,3 +109,5 @@ body {
 #heading {
   font-size: 29px;
 }
+
+/*# sourceMappingURL=index0.css.map */
