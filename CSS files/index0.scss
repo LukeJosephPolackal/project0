@@ -2,6 +2,27 @@ $color1: #fffdd9;
 $color2: #942300;
 $color3: #ffdab8;
 
+@media print {
+  .animations {
+    display: none;
+  }
+}
+
+div[class=row2] {
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+  background-color: $color3;
+}
+
+.row2 > div {
+  padding: 20px;
+  border: 2px solid $color2;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .list {
   display: flex;
   flex-wrap: wrap;
@@ -30,15 +51,7 @@ video {
   margin-left: 20px;
 }
 
-.animations {
-  padding: 5px;
-  margin: 5px;
-  background-color: $color1;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.youtube {
+.animations, .youtube {
   padding: 5px;
   margin: 5px;
   background-color: $color1;
@@ -56,26 +69,22 @@ body {
   width: auto;
   vertical-align: middle;
   padding: 75px;
-}
-
-.image {
-  display: block;
-  vertical-align: middle;
-  padding: 25px;
-}
-
-.bio {
   display: flex;
   flex-wrap: wrap;
 }
 
-.bio > div {
+.bio2 {
+  text-align: center;
+}
+
+.bio  div {
   background-color: $color3;
   font-size: 20px;
   margin: 10px;
   padding: 20px;
   width: auto;
-  display: flex;
+  display: block;
+  flex-wrap: wrap;
 }
 
 .header {
