@@ -1,6 +1,28 @@
 $color1: #fffdd9;
 $color2: #942300;
 $color3: #ffdab8;
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 75px;
+  font-size: 20px;
+  background-color: $color3;
+  margin: 10px;
+  padding: 20px;
+
+  #list{
+    color: $color2;
+    display: block;
+    width: auto;
+  }
+  ul {
+    color: $color2;
+    display: block;
+    width: auto;
+  }
+}
+
 video {
   background-color: white;
   display: flex;
@@ -11,7 +33,7 @@ video {
 .animations {
   padding: 5px;
   margin: 5px;
-  background-color: #fffdd9;
+  background-color: $color1;
   display: flex;
   flex-wrap: wrap;
 }
@@ -19,7 +41,7 @@ video {
 .youtube {
   padding: 5px;
   margin: 5px;
-  background-color: #fffdd9;
+  background-color: $color1;
   display: flex;
   flex-wrap: wrap;
 }
