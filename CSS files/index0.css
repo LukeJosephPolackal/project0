@@ -1,3 +1,23 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 75px;
+  font-size: 20px;
+  background-color: #ffdab8;
+  margin: 10px;
+  padding: 20px;
+}
+.list #list {
+  color: #942300;
+  display: block;
+  width: auto;
+}
+.list ul {
+  color: #942300;
+  display: block;
+  width: auto;
+}
+
 video {
   background-color: white;
   display: flex;
